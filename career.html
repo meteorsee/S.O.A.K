@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Meteor, Sharmine, Chan Fwu, Chin Teng">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<head>
+    <title>Career</title>
+    <!--  Powered by S.O.A.K  -->
+    <!--==========================================
+	   ____  _____  ______ ___ ___
+    |     |  _  ||	    ||   /  /
+    |____ | | | ||	___ ||     /
+         || |_| ||	    ||     \
+     ____||_____||	    ||__|\__\
+===========================================-->
+    <link rel="shortcut icon" type="image/x-icon" href="soak.ico" />
+    <link href="\bootstrap-5.2.0-dist\bootstrap-5.2.0-dist\css\bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="manifest" href="\bootstrap-5.2.0\site\static\docs\5.2\assets\img\favicons\manifest.json">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+        </svg></button>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" target="_self"><img src="soak.png" width="40" height="40"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active hover-underline-animation" aria-current="page" href="index.html"
+                                target="_self">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active hover-underline-animation" aria-current="page" href="Menu.html"
+                                target="_self">Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active hover-underline-animation" aria-current="page"
+                                href="Location.html" target="_self">Location</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active hover-underline-animation" aria-current="page"
+                                href="Reservation.html" target="_self">Reservation</a>
+                        </li>
+                        <!--Dropdown menu-->
+                        <li class="nav-item dropdown hover-underline-animation">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-light  ">
+                                <li class="dropdown-item">
+                                    <a class="nav-link active" aria-current="page" href="About.html"
+                                        target="_self">About Us</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-link active" aria-current="page" href="News.html"
+                                        target="_self">News</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-link active" aria-current="page" href="Faq.html"
+                                        target="_self">FAQ</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-link active" aria-current="page" href="Contact.html"
+                                        target="_self">Contact</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-link active" aria-current="page" href="career.html"
+                                        target="_self">Career</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="loginbtn btn btn-outline-dark" href="login.html">Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="main-wrapper" class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <div class="row no-gutters">
+                                <div class="col-lg-6">
+                                    <div class="p-1">
+                                        <div class="mb-4">
+                                            <h3 class="h2 font-weight-bold">Welcome to S.O.A.K </h3>
+                                        </div>
+                                        <h6 class="h5 mb-0">Application Form</h6>
+                                        <p class="text-muted mt-2 mb-2">Please fill in the personal info.</p>
+                                        <form name="application_form">
+                                            <div class="form-group">
+                                                <div class=" row">
+                                                    <div class="col-sm">
+                                                        <label for="firstname">First Name</label>
+                                                        <input type="text" class="form-control" id="firstname_application"
+                                                            name="firstname_application" required>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label for="lastname">Last Name</label>
+                                                        <input type="text" class="form-control" id="lastname_application"
+                                                            name="lastname_application" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class=" row">
+                                                        <div class="col-sm">
+                                                            <label for="email">Email address</label>
+                                                            <input type="email" class="form-control" id="email_application"
+                                                                name="email_application" required>
+                                                        </div>
+                                                        <div class="col-sm">
+                                                            <label for="phone_no">Phone Number</label>
+                                                            <input type="text" class="form-control" id="phone_no_application"
+                                                                name="phone_no_application" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group mb-1">
+                                                <label>Current Address</label>
+                                                <input type="text" class="form-control" id="current_address" name="current_address" required>
+                                            </div>
+                                            <div class="form-group mb-1">
+                                                <span class="form-label d-block">Position</span>
+                                                <select required name="position_application" id="position_application" class="form-select">
+                                                    <option>Executive Chef</option>
+                                                    <option>Server</option>
+                                                    <option>Cashier</option>
+                                                    <option>Dishwasher</option>
+                                                    <option>Barista</option>
+                                                    <option>Prep Cook</option>
+                                                    <option>Kitchen Manager</option>
+                                                    <option>General Manager</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group mb-1">
+                                                <span class="form-label d-block">Years of experience</span>
+                                                <select required name="experience_application" id="experience_application" class="form-select">
+                                                    <option>Less than a year</option>
+                                                    <option>1 - 2 years</option>
+                                                    <option>2 - 4 years</option>
+                                                    <option>4 - 7 years</option>
+                                                    <option>7 - 10 years</option>
+                                                    <option>10+ years</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group mb-1">
+                                                <label>Tell us more about yourself</label>
+                                                <textarea class="form-control"
+                                                    id=" exampleFormControlTextarea1 text-area about_application"
+                                                    name="about_application" rows="3"
+                                                    placeholder="What motivates you?"></textarea>
+                                            </div>
+                                            <div class="form-group mb-1">
+                                                <label for="formFileSm" class="form-label" >Please upload your resume
+                                                    here</label>
+                                                <input class="form-control" id="formFileMd" type="file" name="resume_application" id="resume_application">
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="invalidCheck" name="term_application" required>
+                                                Agree to terms and conditions
+                                            </div>
+                                            <br>
+                                            <button type="submit" class="btn btn-theme"
+                                                onclick="Application()">Submit</button>
+                                            <br>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 d-none d-lg-inline-block">
+                                    <div class="account-block2 ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <!-- FOOTER -->
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <img src="soak.png" width="100">
+
+            <p class="footer-links">
+                <a href="index.html" class="link-1" target="_self">Home</a>
+
+                <a href="Menu.html" target="_self">Menu</a>
+
+                <a href="News.html" target="_self">News</a>
+
+                <a href="About.html" target="_self">About Us</a>
+
+                <a href="Faq.html" target="_self">FAQ</a>
+
+                <a href="Contact.html" target="_self">Contact</a>
+            </p>
+
+            <p class="footer-company-name">S.O.A.K © 2015</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>2288, Jalan Hala Timah 1, Taman Kolej Perdana, </span> 31900 Kampar, Perak.</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+605 5731 0021
+                <p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@soakcafe.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About S.O.A.K</span>
+                A loft cafe that launched in 2015 & based in Kampar, Perak.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/SOAKCafe"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
